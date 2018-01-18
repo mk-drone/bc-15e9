@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    background: #eff8ff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+form {
+    text-align: center;
+}
+
+#searchText {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.userList {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items:center;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    border:1px solid #59b6ff;
+    padding: 15px 5px;
+    margin:5px;
+    width:11em;
+    align-items: center;
+    background:#b3ddfd;
+}
+
+.userAvatar {
+    width: 10em;
+    border:1px solid #59b6ff;
+    padding:5px;
+    background:white;
+}
+
+.userLogin {
+    text-decoration: none;
+    color: #0d55cd;
+}
+
+.not-found {
+    border:2px solid red;
+}
